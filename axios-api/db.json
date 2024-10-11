@@ -28,13 +28,13 @@
       "student_date_added": "12/10/2024"
     },
     {
-      "id": 4,
-      "student_name": "Tùng",
-      "student_email": "tung@gmail.com",
-      "student_address": "Hải Phòng",
-      "student_phone": "093456789",
-      "student_status": true,
-      "student_date_added": "13/10/2024"
+      "id": 3,
+      "student_name": "Mai",
+      "student_email": "mai@gmail.com",
+      "student_address": "Hải Phòng ",
+      "student_phone": "091235127",
+      "student_status": false,
+      "student_date_added": "12/10/2024"
     }
   ]
 }

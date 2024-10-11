@@ -149,7 +149,7 @@
     </div>
 
     <!-- Modal sửa -->
-    <div
+    <!-- <div
       v-if="showEditStudentModal"
       class="modal fade show"
       tabindex="-1"
@@ -216,7 +216,7 @@
           </form>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -244,7 +244,7 @@ const getAllUsers = async () => {
     const response = await axios.get("http://localhost:3000/students");
     users.value = response.data;
   } catch (error) {
-    console.error("Error fetching students:", error);
+    console.error("loi:", error);
   }
 };
 
@@ -261,7 +261,7 @@ const addStudent = async () => {
     await getAllUsers();
     closeAddStudentModal();
   } catch (error) {
-    console.error("Error adding student:", error);
+    console.error("loi:", error);
   }
 };
 const currentStudent = ref({});
@@ -274,19 +274,7 @@ const openEditStudentModal = (student) => {
 const closeEditStudentModal = () => {
   showEditStudentModal.value = false;
 };
-// sua
-const editStudent = async () => {
-  try {
-    await axios.put(
-      `http://localhost:3000/students/${currentStudent.value.id}`,
-      currentStudent.value
-    );
-    await getAllUsers();
-    closeEditStudentModal();
-  } catch (error) {
-    console.error("Error updating student:", error);
-  }
-};
+
 // xoa
 const deleteStudent = async (id) => {
   if (confirm("Bạn có chắc chắn muốn xóa sinh viên này không?")) {
