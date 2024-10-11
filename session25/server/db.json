@@ -1,0 +1,19 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "name": "Quét nhà",
+      "selected": false
+    },
+    {
+      "id": 2,
+      "name": "Rửa bát",
+      "selected": false
+    },
+    {
+      "id": 3,
+      "name": "Nấu cơm",
+      "selected": false
+    }
+  ]
+}
