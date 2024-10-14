@@ -1,0 +1,61 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Throwback Hip Bag",
+      "price": 30,
+      "quantity": 8,
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQImLW7evR3SgIhHEQvliuh2KL2TtVpWQ6Ing&s",
+      "cartQuantity": 0
+    },
+    {
+      "id": 2,
+      "name": "Lie Lie Bag",
+      "price": 30,
+      "quantity": 81,
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0d8LKd8KOQu7Bpy3qMBq4FISa-dl9F1zHWA&s",
+      "cartQuantity": 0
+    },
+    {
+      "id": 3,
+      "name": "Beautiful Handbag",
+      "price": 30,
+      "quantity": 12,
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEPft5TvzDEBZMKOKELuxaUd1lo_y0gfah5g&s",
+      "cartQuantity": 0
+    }
+  ],
+  "cart": [
+    {
+      "id": 3,
+      "name": "Beautiful Handbag",
+      "price": 30,
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEPft5TvzDEBZMKOKELuxaUd1lo_y0gfah5g&s",
+      "totalPrice": 30,
+      "cartQuantity": 10,
+      "quantity": 20
+    },
+    {
+      "id": 2,
+      "name": "Lie Lie Bag",
+      "price": 30,
+      "quantity": 20,
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0d8LKd8KOQu7Bpy3qMBq4FISa-dl9F1zHWA&s",
+      "cartQuantity": 1
+    },
+    {
+      "id": 1,
+      "name": "Throwback Hip Bag",
+      "price": 30,
+      "quantity": 30,
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQImLW7evR3SgIhHEQvliuh2KL2TtVpWQ6Ing&s",
+      "cartQuantity": 1
+    }
+  ]
+}
